@@ -368,12 +368,13 @@ textarea {
 /* BASE STYLES ....................*/
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif; }
+  font-family: 'Lato', sans-serif; }
 
 img {
   width: 100%;
   display: block; }
 
+/* CONTENT STYLES .................*/
 #app-container {
   max-width: 100%;
   margin: 0 auto;
@@ -381,7 +382,6 @@ img {
   font-size: 0; }
   #app-container .header {
     font-size: medium;
-    font-family: 'Lato', sans-serif;
     color: #47a3da;
     display: block;
     width: 90%;
@@ -400,13 +400,16 @@ img {
     #app-container .header h1 {
       font-size: 2.125em;
       line-height: 1.3em;
-      margin: 0 0 0.6em 0;
+      margin: 0;
       font-weight: 400;
       padding-right: 50px;
       padding-left: 50px;
-      letter-spacing: 0.2px;
-      font-family: 'Lato', sans-serif; }
-
-/* CONTENT STYLES .................*/
+      letter-spacing: 0.2px; }
+    #app-container .header .nav-bar {
+      font-size: 50px; }
+  #app-container .main .accordion h3 {
+    margin: 0 0 0.3em;
+    border-bottom: 1px solid #dddddd;
+    font-weight: 300; }
 
 /*# sourceMappingURL=styles.css.map */
